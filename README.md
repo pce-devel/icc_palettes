@@ -1,6 +1,8 @@
-# ICC versions of Mednafen PCE Palettes
+# ICC versions of several community created Mednafen PCE Palettes
 
 The included ICC profiles are based on the ongoing work done by the PCE community to approximate what the PCE/TG16 hardware would output for a YUV signal. (Here's a good write-up of how we got here https://www.retrorgb.com/pc-engine-palette-improvements-the-amazing-people-behind-the-technology.html)
+
+![pceDev16_pal_041222_overview](https://user-images.githubusercontent.com/95596143/175838325-f9a72d87-9cce-4991-8288-5622a6a6ab04.png)
 
 ## How to use:
 
@@ -20,6 +22,9 @@ The provided ICC profiles in the `icc` folder are as follows :
 -  `pce.pal.original.081321.icc` : A v4.2.x ICC Profile based on the Original (dated 081321) commit to Kitrinx's TG16 Palette repository representing the community's initial results as referenced in the above retrorgb article and the relevant GH Repo commit (https://github.com/Kitrinx/TG16_Palette/commit/c29160497d2f02e5f54f4d76a64641c829b46a4c)
 
 -  `pce.pal.kitrinx.041222.icc` : A v4.2.x ICC profile based on the latest (dated 041222) commit to Kitrinx's TG16 Palette repository found here: https://github.com/Kitrinx/TG16_Palette
+
+
+
 
 
 It is assumed that the user is aware of how to use ICC profiles in their application of preference. 
